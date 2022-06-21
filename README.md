@@ -1,16 +1,20 @@
 # Fundamentos de Docker
+## Seminario COMMLAB
 #### Wilmer Moina-Rivera
-##### Seminario COMMLAB
 
 ## Instalación de Docker
+Opciones de instalacion: 
 
-### Artefactos (paquetes)
+**Artefactos (paquetes para MAC, Windows y Linux)**
+
 https://www.docker.com/get-started/
 
-### Manual
+**Manual**
+
 https://docs.docker.com/desktop/ 
 
-### Script (Distribuciones Linux)
+**Script (Distribuciones Linux)**
+
 Descargar:
 ```
 wget -O docker-install.sh https://get.docker.com/ 
@@ -23,14 +27,15 @@ Ejecutar:
 ```
 bash docker-install.sh
 ```
-### Comprobar instalación
+**Comprobar instalación**
+
 Comprobar version:
 ```
-docker --version 
+sudo docker --version 
 ```
 Verifique que el motor Docker está instalado correctamente ejecutando la imagen hello-world:
 ```
 sudo docker run hello-world
 # Hello from Docker! 
 ```
-> **Salida:Hello from Docker!** Este comando descarga una imagen de prueba y la ejecuta en un contenedor. Cuando el contenedor se ejecuta, imprime un mensaje y sale.
+> **Salida:** Este comando descarga una imagen de prueba y la ejecuta en un contenedor. Cuando el contenedor se ejecuta, imprime un mensaje y sale.
